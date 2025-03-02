@@ -17,7 +17,7 @@ ZingJS is a **fast, event-driven, modular** backend framework written in **TypeS
 ### Installation  
 
 ```sh
-npm install -g zingjs-cli
+npm install -g zingjs
 ```
 
 ### Create a New Project  

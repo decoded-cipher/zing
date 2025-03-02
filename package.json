@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "zingjs": "dist/cli/index.js"
+    "zingjs": "dist/src/cli/index.js"
   },
   "scripts": {
     "dev": "ts-node src/index.ts",
