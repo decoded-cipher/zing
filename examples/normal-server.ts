@@ -1,4 +1,4 @@
-import { createApp, Request, Response, NextFunction } from "zing";
+import { createApp, Request, Response, NextFunction } from "zingjs";
 const app = createApp();
 
 app.use((req: Request, res: Response, next: NextFunction) => {

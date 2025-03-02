@@ -1,11 +1,11 @@
 {
-  "name": "zing",
+  "name": "zingjs",
   "version": "1.0.0",
   "description": "A lightweight, high-performance backend framework for server and serverless environments.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "zing": "dist/cli/index.js"
+    "zingjs": "dist/cli/index.js"
   },
   "scripts": {
     "dev": "ts-node src/index.ts",
@@ -32,13 +32,13 @@
     "test": "tests"
   },
   "keywords": [
-    "zing",
+    "zingjs",
     "framework",
     "server",
     "serverless"
   ],
   "bugs": {
-    "url": "https://github.com/decoded-cipher/zing/issues"
+    "url": "https://github.com/decoded-cipher/zingjs/issues"
   },
-  "homepage": "https://github.com/decoded-cipher/zing#readme"
+  "homepage": "https://github.com/decoded-cipher/zingjs#readme"
 }

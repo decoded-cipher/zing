@@ -1,7 +1,7 @@
 import * as http from "http";
 import { IncomingMessage, ServerResponse } from "http";
 import { parse } from "url";
-import { AWSEvent, AWSContext, AWSResponse } from "zing/adapters";
+import { AWSEvent, AWSContext, AWSResponse } from "zingjs/adapters";
 
 // Custom interfaces for serverless environments
 export interface ServerlessRequest {

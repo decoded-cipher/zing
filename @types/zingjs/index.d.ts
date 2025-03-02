@@ -1,4 +1,4 @@
-declare module 'zing' {
+declare module 'zingjs' {
   import { IncomingMessage, ServerResponse } from 'http';
 
   export interface Request extends IncomingMessage {
@@ -38,8 +38,8 @@ declare module 'zing' {
   export function createApp(): App;
 }
 
-declare module 'zing/adapters' {
-  import { App } from 'zing';
+declare module 'zingjs/adapters' {
+  import { App } from 'zingjs';
   
   export interface AWSEvent {
     httpMethod: string;

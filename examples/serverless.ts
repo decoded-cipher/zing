@@ -1,5 +1,5 @@
-import { createApp, Request, Response } from "zing";
-import { awsAdapter } from "zing/adapters";
+import { createApp, Request, Response } from "zingjs";
+import { awsAdapter } from "zingjs/adapters";
 
 const app = createApp();
 

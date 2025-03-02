@@ -21,7 +21,7 @@ if (command === "new") {
   }
   fs.mkdirSync(param);
   fs.writeFileSync(path.join(param, "index.ts"), `
-    import { createApp } from "zing";
+    import { createApp } from "zingjs";
 
     const app = createApp();
     app.get("/", (req, res) => res.json({ message: "Hello, World!" }));

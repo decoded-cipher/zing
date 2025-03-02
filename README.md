@@ -1,6 +1,6 @@
-# ⚡ Zing – The Lightweight, Modular Backend Framework
+# ⚡ ZingJS – The Lightweight, Modular Backend Framework
 
-Zing is a **fast, event-driven, modular** backend framework written in **TypeScript**. Designed for **performance and flexibility**, it works efficiently on **server-based** and **serverless** environments.  
+ZingJS is a **fast, event-driven, modular** backend framework written in **TypeScript**. Designed for **performance and flexibility**, it works efficiently on **server-based** and **serverless** environments.  
 
 ## ✨ Features  
 
@@ -17,13 +17,13 @@ Zing is a **fast, event-driven, modular** backend framework written in **TypeScr
 ### Installation  
 
 ```sh
-npm install -g zing-cli
+npm install -g zingjs-cli
 ```
 
 ### Create a New Project  
 
 ```sh
-zing new my-app
+zingjs new my-app
 cd my-app
 npm install
 ```
@@ -43,12 +43,12 @@ PORT=5000 npm start
 ### Example Usage  
 
 ```typescript
-import { Server } from 'zing';
+import { Server } from 'zingjs';
 
 const app = new Server();
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to Zing!' });
+  res.json({ message: 'Welcome to ZingJS!' });
 });
 
 app.listen(3000, () => {
@@ -59,10 +59,10 @@ app.listen(3000, () => {
 ## 🛠 CLI Commands  
 
 ```sh
-zing new <project-name>   # Create a new Zing project
-zing build                # Build the project
-zing start                # Start the server
-zing add <module>         # Install additional modules
+zingjs new <project-name>   # Create a new ZingJS project
+zingjs build                # Build the project
+zingjs start                # Start the server
+zingjs add <module>         # Install additional modules
 ```
 
 ## 📂 Project Structure  
@@ -84,5 +84,5 @@ my-app/
 
 ## 📜 License  
 
-MIT License © 2025 - Built with ❤️ by the Zing team.
+MIT License © 2025 - Built with ❤️ by the ZingJS team.
 
