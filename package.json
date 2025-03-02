@@ -1,0 +1,40 @@
+{
+  "name": "zing",
+  "version": "1.0.0",
+  "description": "A lightweight, high-performance backend framework for server and serverless environments.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "zing": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decoded-cipher/zing.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.17.22",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.0.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.0.0"
+  },
+  "author": "Arjun Krishna",
+  "license": "MIT",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/decoded-cipher/zing/issues"
+  },
+  "homepage": "https://github.com/decoded-cipher/zing#readme"
+}
