@@ -1,6 +1,6 @@
 {
   "name": "zingjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight, high-performance backend framework for server and serverless environments.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
